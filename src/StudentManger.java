@@ -28,7 +28,7 @@ public class StudentManger {
         return new Student(name, age, math, physics, chemistry, avgPoint);
 
     }
-    public void addStudent() {
+    public void addStudent(Student student) {
         students.add(createStudent());
     }
     public void displayAll() {
@@ -127,4 +127,6 @@ public class StudentManger {
         }
         return students3;
     }
+
+
 }
